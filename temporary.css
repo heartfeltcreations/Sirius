@@ -97,7 +97,7 @@ h1 {
   flex-direction: column;
 }
 
-#descripcion-sub {
+#descripcion-sub p {
   font-size: 0.75rem;
   color: #aaa;
   letter-spacing: 2px;

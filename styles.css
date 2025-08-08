@@ -1,0 +1,56 @@
+/* Paleta de colores: #F2F2F2; #DBDBDB; #C4C4C4; #ADADAD; #969696; #808080; #696969; #525252;#3B3B3B; main #292929; #0D0D0D; 
+*/
+
+/* Todo el documento */
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+a { 
+    color: #3b3b3b;
+    text-decoration: none; /* Elimina la raya de debajo del enlace */
+} 
+
+/* navbar */
+
+#navbar-home {
+    border-bottom-color: #292929;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    padding: 10px;
+}
+
+.home-icon { width: 7%; }
+
+.list {
+    display: none; /* oculta la lista por defecto */
+    list-style: none; /* quita los puntos de lista */
+    padding: 0;
+    margin: 0; }
+
+.list.show { display: block; } /* muestra la lista cuando se agrega la clase */
+
+.list-button {
+    background: none; /* Elimina el fondo */
+    border: none; /* Elimina el borde */
+    padding: 0; /* Elimina el espacio interior (opcional) */
+    margin: 0; /* Elimina márgenes (opcional) */
+    font: inherit; /* Hereda la fuente del elemento padre */
+    color: inherit; /* Hereda el color del texto */
+    cursor: pointer; /* Opcional: da apariencia de botón interactivo */
+    gap: 20px;
+}
+
+.profile-pic {
+    width: 50px;
+    border: #292929;
+    border-style: solid;
+    border-radius: 50%;
+    float: inline-end; /* permite que la imagen flote hacia la derecha del elemento contenedor */
+}
+
+.buttons {
+    gap: 20px;
+    display: inline-flex;
+}
